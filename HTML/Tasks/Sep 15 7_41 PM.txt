@@ -1,0 +1,33 @@
+Scenario1: You are tasked with creating a simple webpage for a local restaurant that wants to display their menu online. They want the menu to be organized into different sections (appetizers, main courses, desserts). and each item in the menu should include the name of the dish and its price. You are not allowed to use CSS for styling: only HTML tags can be used for structuring the content.
+Question:
+Using only HTML tags and no CSS, how would you structure the menu for the restaurant, ensuring that it includes three sections (appetizers, main courses, desserts) and provides the name and price for each item in a clear and organized manner? Please provide a sample code snippet for the menu structure.
+
+Scenario2: You're building a webpage for a recipe website. Describe how you would structure the HTML code to create a recipe card for a chocolate chip cookie recipe, including the ingredients and instructions.
+Question: Provide the HTML structure for a recipe card for chocolate chip cookies, including the use of relevant HTML tags.
+
+Scenario3: You're developing a personal blog and want to create a section where you can add quotes from famous authors. How would you mark up a blockquote in HTML for a quote by Albert Einstein?
+Question: Write the HTML code to display a blockquote attributed to Albert Einstein on your blog.
+
+Scenario4: You're working on an educational website, and you need to create a definition list to explain key terms related to physics. How would you use HTML to create a definition list with multiple terms and their respective definitions?
+Question: Demonstrate the HTML markup for a definition list containing three physics terms and their definitions.
+
+Scenario5: You're developing a portfolio website for a photographer. Explain how you would use HTML to embed an image into a webpage.
+Question: Describe the HTML code to embed a photograph titled "Sunset Over the Mountains.jpg" into a webpage for a photographer's portfolio.
+
+Scenario6: You want to create an ordered list of your favorite movies on your personal website. How would you structure this list using HTML tags?
+Question: Provide the HTML markup for an ordered list of your top five favorite movies.
+
+Scenario7: You're building a travel blog and want to add hyperlinks to external websites for travel destinations you've visited. How would you create these hyperlinks in your HTML code?
+Question: Write the HTML code to create hyperlinks to three different travel destination websites within a paragraph of your travel blog post.
+
+Scenario8: You're developing a webpage for an art gallery and need to create a table to display information about various artworks, including the artist's name, artwork title, and price. How would you structure this table using HTML?
+Question: Explain how you would use HTML to create a table that includes columns for artist name, artwork title, and price, and populate it with data for three artworks.
+
+Scenario9: You're building a contact page for a business website and need to include a form for users to submit inquiries. Describe how you would create a basic form using HTML.
+Question: Provide the HTML code to create a simple contact form with fields for name, email, subject, and a message textarea.
+
+Scenario10: You're creating a personal webpage and want to add a brief biography. How would you use HTML to create a structured, well-organized biography section?
+Question: Detail the HTML markup to structure a biography section with subsections for "Early Life," "Education," and "Career" on your personal webpage.
+
+Scenario11: You're developing a webpage for a bookstore and need to list the genres of books available. How would you create an unordered list of book genres using HTML?
+Question: Write the HTML code to create an unordered list of book genres, including "Mystery," "Science Fiction," "Romance," and "Fantasy," for a bookstore's webpage.
