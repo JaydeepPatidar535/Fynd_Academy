@@ -1,3 +1,3 @@
-# Hello this is first class of Fynd Academy for git and github
+# Fynd Academy training  
 
 author- "Jaydeep Patidar"
