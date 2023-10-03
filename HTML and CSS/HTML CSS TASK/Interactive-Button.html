@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Animation</title>
+
+</head>
+<style>
+    /* Reset some default styles */
+body, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the "Play Now" button */
+.play-button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #3498db; /* Blue color for the button */
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add a slight shadow to the button */
+.play-button:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Add a slight bounce effect */
+.play-button:active {
+    transform: translateY(3px);
+}
+
+</style>
+<body>
+    <div class="button-container">
+        <a href="#" class="play-button">Play Now</a>
+    </div>
+</body>
+</html>
