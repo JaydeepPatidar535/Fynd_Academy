@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt, Confirm, and Alert Dialogs</title>
+</head>
+<body>
+    <script>
+        // Show Prompt dialog
+        const resultPrompt = prompt("Please enter your name:", "");
+        if (resultPrompt !== null) {
+            alert("You entered: " + resultPrompt);
+        }
+
+        // Show Confirm dialog
+        const resultConfirm = confirm("Do you want to proceed?");
+        if (resultConfirm) {
+            alert("You clicked OK!");
+        } else {
+            alert("You clicked Cancel!");
+        }
+
+        // Show Alert dialog
+        alert("This is an alert message.");
+    </script>
+</body>
+</html>
