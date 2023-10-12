@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+</head>
+
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-size: cover;
+            background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxOTc3MzAyfHxlbnwwfHx8fHw%3D&w=1000&q=80);
+        }
+
+        #quote-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: goldenrod;
+            border: 3px solid #3498db;
+        }
+
+        #quote {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        #author {
+            font-style: italic;
+        }
+
+        #new-quote-btn {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #new-quote-btn:hover {
+            background-color: #2980b9;
+        }
+</style>
+<body>
+    <div id="quote-container">
+        <h1>Random Quote Generator</h1>
+        <div id="quote">
+            Click the button to generate a random quote.
+        </div>
+        <div id="author">- Unknown</div>
+        <br>
+        <button id="new-quote-btn">New Quote</button>
+    </div>
+
+    <script>
+        const quotes = [
+            {
+                text: "The only way to do great work is to love what you do.",
+                author: "Steve Jobs"
+            },
+            {
+                text: "In the middle of every difficulty lies opportunity.",
+                author: "Albert Einstein"
+            },
+            {
+                text: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+                author: "Winston Churchill"
+            },
+            {
+                text: "The best way to predict the future is to create it.",
+                author: "Peter Drucker"
+            },
+            {
+                text: "Your time is limited, don't waste it living someone else's life.",
+                author: "Steve Jobs"
+            }
+        ];
+
+        const quoteDisplay = document.getElementById('quote');
+        const authorDisplay = document.getElementById('author');
+        const newQuoteBtn = document.getElementById('new-quote-btn');
+
+        function getRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const randomQuote = quotes[randomIndex];
+            quoteDisplay.textContent = randomQuote.text;
+            authorDisplay.textContent = `- ${randomQuote.author}`;
+        }
+
+        newQuoteBtn.addEventListener('click', getRandomQuote);
+
+        // Initial quote display
+        getRandomQuote();
+    </script>
+</body>
+</html>
