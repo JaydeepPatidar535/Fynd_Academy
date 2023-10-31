@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ctrl + S Shortcut</title>
+  </head>
+  <body>
+    <script>
+      document.addEventListener("keydown", function (e) {
+        if (e.ctrlKey && e.key === "s") {
+          event.preventDefault();
+          alert("Ctrl + S pressed. Save or trigger your function here.");
+        }
+      });
+    </script>
+  </body>
+</html>
